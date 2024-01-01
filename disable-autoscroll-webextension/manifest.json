@@ -3,7 +3,7 @@
   "name": "Disable AutoScroll",
   "short_name": "Disable AutoScroll",
   "description": "Disables middle-click autoscrolling (often confused with 'smooth scrolling')",
-  "version": "1.1",
+  "version": "1.2",
   "author": "Slackwise",
   "icons": {"48": "disable-autoscroll-48.png",
             "125": "disable-autoscroll-128.png"},
@@ -11,7 +11,7 @@
     {
       "matches": [ "<all_urls>" ],
       "all_frames": true,
-      "js": ["index.js"]
+      "js": ["disable-autoscroll.js"]
     }
   ]
 }
